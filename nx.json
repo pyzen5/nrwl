@@ -18,5 +18,23 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "b2b": {
+      "tags": []
+    },
+    "b2b-e2e": {
+      "tags": [],
+      "implicitDependencies": ["b2b"]
+    },
+    "b2c": {
+      "tags": []
+    },
+    "b2c-e2e": {
+      "tags": [],
+      "implicitDependencies": ["b2c"]
+    },
+    "platform": {
+      "tags": []
+    }
+  }
 }
